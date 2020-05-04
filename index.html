@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Mint</title>
 </head>
 <body>
     <header>
@@ -12,23 +13,39 @@
         </nav>
     </header>
     <main>
-        <div> 
-            <img src="images/logo.png">
+        <div>
+            <div class = "logo">
+                <img id = "logo" src="images/logo.png">
+            </div>
             <div class="icons">
                 <div>
-                    <img class="icon1" src="images/icon1.png">
-                    <p>mint</p>
+                    <img class="icon" src="images/icon1.png">
+                    
                 </div>
+                <div class = "text">mint</div>
                 <div>
-                    <img class="icon2" src="images/icon2.png">
-                    <p>quickbooks</p>
+                    <img class="icon" src="images/icon2.png">
                 </div>
+                <div text = "text">quickbooks</div>
                 <div>
-                    <img class="icon3" src="images/icon3.png">
-                    <p>turbotax</p>
+                    <img class="icon" src="images/icon3.png">
                 </div>
-            </div>
+                <div class = "text">turbotax</div>
 
+        </div>
+        <div>
+            <form action = "" method = "post">
+                <label for "email">Email address</label><br>
+                <input type = "email" id = "email" name = "name"><br>
+                <label for ="phone">Phone (recommended)</label><br>
+                <input type = "tel" id = "phone" name = "telephone"><br>
+                <label for "password">Password</label><br>
+                <input type = "password" id = "password" name = "password"><br>
+                <button type = "submit" id = "submit">Creat Account</button>
+                <p>By clicking Create account, you agree to our <a href = "#">Terms</a>and have read and acknowledge our
+                <a href = "#">Privacy Statement</a>
+                </p>
+            </form>
         </div>
     </main>
     

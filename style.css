@@ -1,0 +1,20 @@
+.logo{
+    
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 118px;
+    height: 35px;
+}
+.icon{
+    width: 23px;
+    height:23px;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+}
+.text{
+    justify-content: baseline;
+}
