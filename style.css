@@ -163,12 +163,11 @@ a:link {
       padding-top: 0px;
   }
   .footerLinks a:link{
-    color:#505050
+    color:#505050;
+    margin: 10px;
     
   }
-  .footIcon{
-      
-  }
+
   .captcha{
     color: #8d9096;
     font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -190,5 +189,17 @@ a:link {
   .captcha a:link{
       font-size: 10px;
   }
-
+  .copy{
+      text-align: center;
+      font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      color: #505050;
+      font-size: 12px;
+  }
+  .terms{
+    text-align: center;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #505050;
+    font-size: 12px;
+    margin-top: 5px;
+  }
 
