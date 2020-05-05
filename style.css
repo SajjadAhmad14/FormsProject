@@ -2,23 +2,28 @@ body{
     background-color: #ECEEF1;
 }
 main{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 form{
     background-color: white;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-top: 2.5%;
     padding-bottom: 1%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
     border: 1px solid #c7c7c7;
-    border-radius: 5px; 
+    border-radius: 5px;
+    border-end-end-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 0; 
 }
 .formContainer{
 display: flex;
 flex-direction: column;
+
 }
 label{
     text-align: left;
@@ -32,7 +37,7 @@ label{
 
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #logoImage{
     width: 118px;
@@ -48,8 +53,7 @@ label{
 }
 .icons{
     display:flex;
-    justify-content: center;
-    
+    justify-content: center;   
     
 }
 .text{
@@ -59,7 +63,7 @@ label{
     line-height: 18px;
     margin-left: 10px;
     margin-bottom: 20px;
-    color: silver;
+    color:  #737373;
     opacity: 10;
 }
 .forget{
@@ -138,6 +142,7 @@ a:link {
       height: 28px;
       border-radius: 5px;
       border: 1px solid #d8d8d8;
+      margin-bottom: 20px;
   }
   #submit{
       background-color: #0077C5;
@@ -154,5 +159,36 @@ a:link {
   .footerLinks{
       display: flex;
       justify-content: center;
+      flex-wrap: nowrap;
       padding-top: 0px;
   }
+  .footerLinks a:link{
+    color:#505050
+    
+  }
+  .footIcon{
+      
+  }
+  .captcha{
+    color: #8d9096;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color:#ECEEF1;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px; 
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .captcha a:link{
+      font-size: 10px;
+  }
+
+
