@@ -25,21 +25,35 @@ label, p{
 
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
-#logo{
+#logoImage{
     width: 118px;
     height: 35px;
 }
 .icon{
+    display: flex;
+    justify-content: space-around;
     width: 23px;
     height:23px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 .icons{
     display:flex;
     justify-content: center;
+    
+    
 }
 .text{
     justify-content: baseline;
+    font-size: 20px;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: silver;
+    opacity: 10;
 }
 .btn button{
     position: fixed;
@@ -51,5 +65,14 @@ label, p{
     font-size: 13.5px;
     border: 1px solid #4c4c4c;
     background-color: #0077C5
+    
+}
+.creat{
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #4c4c4c;
+    font-size: 24px;
+}
+.account{
+    padding-right: 30px;
     
 }
